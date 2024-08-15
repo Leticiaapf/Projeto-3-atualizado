@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body{
+background-color:#D2B48C ;
+
+ 
+  }
+    
+  
+Div{
+    padding: 20px;
+}
+
+.main-container{
+    position: relative;
+
+    max-width: 800px;
+    max-height:860px;
+     background-color:#2F4F4F;
+    border-radius: 2%;
+    margin: 50px auto;
+    padding: 20px 50px;
+   margin-top: 100px;
+}
+
+.banner-container{
+    text-align: center;
+}
+
+.information-container{
+    padding: 20px;
+    color: white;
+    text-align: center;
+   
+}
+img{
+    text-align: center;
+    border-radius: 20%;
+}
+.links-containers {
+    text-align: center;
+}
+
+.links-containers div {
+    display: inline-flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+
+.custom-link {
+    
+    background-color: #C0C0C0; 
+    padding: 10px; 
+    border-radius: 5px;
+    text-decoration: none; 
+    color: black;
+    margin-left: 8px; 
+    transition:0.8s;
+    
+  
+
+}
+
+.custom-link:hover {
+    background-color:#FFFFFF; 
+}
+
+
+.links-containers img {
+    border-radius: 30%;
+    width: 50px; 
+    height: 50px;
+}
+
+
+.linkedin-icon, .github-icon, .instagram-icon {
+    margin-right: 8px; 
+}
+
+.bnt{
+   
+  font-size: 30px; 
+  background-color: #C0C0C0;
+  color: black; 
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.bnt:hover{
+    background-color:#FFFF;
+}
+.bnt:active{
+    background-color: blueviolet;
+}
+
+.custom-button{
+    background-color: #C0C0C0; 
+    padding: 10px; 
+    border-radius: 5px;
+    text-decoration: none; 
+    color: black;
+    margin-left: 8px;
+    margin-right: 10px; 
+    transition:0.8s;
+    
+  
+
+}
